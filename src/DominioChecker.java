@@ -1,4 +1,5 @@
 import java.net.InetAddress;
+import java.net.UnknownHostException;
 
 public class DominioChecker {
     private String email;
@@ -15,7 +16,4 @@ public class DominioChecker {
         return email.split("@")[1].trim().toLowerCase();
     }
 
-    c
-
-    }
 }
